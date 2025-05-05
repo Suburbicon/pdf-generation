@@ -1,0 +1,376 @@
+{
+  "order": {
+    "number": "A58ZVQ8S"
+  },
+  "dict": {
+    "cities": {
+      "ALA": {
+        "name": "Алматы"
+      },
+      "NQZ": {
+        "name": "Астана"
+      }
+    },
+    "airlines": {
+      "KC": {
+        "name": "Air Astana",
+        "bin": "010940000162",
+        "document_number": "серия 60001 номер 0076632 дата 19.09.2012"
+      }
+    },
+    "airports": {
+      "ALA": {
+        "city": {
+          "name": "Алматы"
+        },
+        "name": "Алматы"
+      },
+      "NQZ": {
+        "city": {
+          "name": "Астана"
+        },
+        "name": "Нурсултан Назарбаев"
+      }
+    }
+  },
+  "bookings": [
+    {
+      "id": "071f4a8c-d283-4331-bb80-d3675d264766",
+      "provider_reference": "WG6OZP",
+      "flight_type": "RT",
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2024-06-11T15:15:00+05:00",
+                "airport": "NQZ",
+                "terminal": null
+              },
+              "dep": {
+                "at": "2024-06-11T11:11:00+05:00",
+                "airport": "ALA",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "stops": [],
+              "connection": null,
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "airline": "KC",
+              "display_airline": "KC",
+              "flight_number": "855",
+              "booking_segment_idx": 0
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2024-06-17T00:10:00+05:00",
+                "airport": "ALA",
+                "terminal": null
+              },
+              "dep": {
+                "at": "2024-06-16T22:30:00+05:00",
+                "airport": "NQZ",
+                "terminal": "2"
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "stops": [],
+              "connection": null,
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "airline": "KC",
+              "display_airline": "KC",
+              "flight_number": "856",
+              "booking_segment_idx": 1
+            }
+          ]
+        }
+      ],
+      "fare_family": {
+        "choices": [
+          {
+            "id": 1,
+            "code": "BASIC",
+            "name": "KC: BASIC",
+            "descriptions": [
+              {
+                "name": "Carry on bag up to 8kg 126lcm",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "No luggage",
+                "type": "baggage",
+                "state": "NOT OFFER"
+              },
+              {
+                "name": "Non-refundable",
+                "type": "refund",
+                "state": "NOT OFFER"
+              },
+              {
+                "name": "Exchange for pay",
+                "type": "exchange",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "50 percent miles earned",
+                "type": "miles",
+                "state": "INCLUDE"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "code": "CLASSIC",
+            "name": "KC: CLASSIC",
+            "descriptions": [
+              {
+                "name": "Carry on bag up to 8kg 126lcm",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "1PC: UPTO50LB 23KG OVER62LI 158LCM",
+                "type": "baggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Refund for pay",
+                "type": "refund",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Exchange for pay",
+                "type": "exchange",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Basic seat",
+                "type": "seat",
+                "state": "INCLUDE"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "code": "PLUS",
+            "name": "KC: PLUS",
+            "descriptions": [
+              {
+                "name": "Carry on bag up to 8kg 126lcm",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "2PC: UPTO50LB 23KG OVER62LI 158LCM",
+                "type": "baggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Refundable",
+                "type": "refund",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Exchangeable",
+                "type": "exchange",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "100 percent miles earned",
+                "type": "miles",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Basic seat",
+                "type": "seat",
+                "state": "INCLUDE"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "code": "BUSINFLEX",
+            "name": "KC: BUSINFLEX",
+            "descriptions": [
+              {
+                "name": "Carry on bag up to 8kg 126lcm",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "2PC: UPTO70LB 32KG AND62LI 158LCM",
+                "type": "baggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Refundable",
+                "type": "refund",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Exchangeable",
+                "type": "exchange",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "100 percent miles earned",
+                "type": "miles",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Basic seat",
+                "type": "seat",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Lounge access",
+                "type": "vip_service",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Business class food and bev",
+                "type": "food",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Priority boarding",
+                "type": "vip_service",
+                "state": "INCLUDE"
+              }
+            ]
+          }
+        ],
+        "current_id": 1
+      },
+      "is_charter": false,
+      "features": {
+        "refundable": {
+          "value": false,
+          "level": "critical"
+        }
+      },
+      "validating_airlines": ["KC"],
+      "tickets": [
+        {
+          "segments": [0, 1],
+          "passenger_idx": 0,
+          "number": "465-6086316089",
+          "airline_reference": "WG6OZP"
+        },
+        {
+          "segments": [0, 1],
+          "passenger_idx": 1,
+          "number": "465-6086316090",
+          "airline_reference": "WG6OZP"
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "full_name": "KOHRT GARDIE",
+      "type": "ADT",
+      "dob": "1997-09-19",
+      "document": {
+        "type": "P",
+        "number": "N2471936"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "071f4a8c-d283-4331-bb80-d3675d264766",
+          "flights": [0, 1],
+          "pax_idx": 0
+        }
+      ]
+    },
+    {
+      "full_name": "NAVARIJO KOENRAAD",
+      "type": "ADT",
+      "dob": "1974-07-26",
+      "document": {
+        "type": "P",
+        "number": "N2419876"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "071f4a8c-d283-4331-bb80-d3675d264766",
+          "flights": [0, 1],
+          "pax_idx": 1
+        }
+      ]
+    }
+  ],
+  "baggage": [],
+  "pricing": [
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "product_id": "071f4a8c-d283-4331-bb80-d3675d264766",
+      "amount": 40991.0,
+      "currency": "KZT",
+      "cost": 40991.0,
+      "vat": 4391.89,
+      "passenger_idx": 0,
+      "modifiers": []
+    },
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "product_id": "071f4a8c-d283-4331-bb80-d3675d264766",
+      "amount": 40991.0,
+      "currency": "KZT",
+      "cost": 40991.0,
+      "vat": 4391.89,
+      "passenger_idx": 1,
+      "modifiers": []
+    }
+  ]
+}

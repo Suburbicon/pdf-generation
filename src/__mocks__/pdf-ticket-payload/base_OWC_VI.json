@@ -1,0 +1,298 @@
+{
+  "order": {
+    "number": "AV-190113-908013"
+  },
+  "dict": {
+    "cities": {
+      "ALA": {
+        "name": "Алматы"
+      },
+      "TSE": {
+        "name": "Астана"
+      }
+    },
+    "airlines": {
+      "KC-": {
+        "name": "FlyArystan"
+      },
+      "KC": {
+        "name": "Air Astana",
+        "bin": "010940000162",
+        "document_number": "серия 60001, #J0076632, 19 сентября 2012"
+      }
+    },
+    "airports": {
+      "ALA": {
+        "city": {
+          "name": "Алматы"
+        },
+        "name": "Международный аэропорт Алматы"
+      },
+      "TSE": {
+        "city": {
+          "name": "Астана"
+        },
+        "name": "Международный аэропорт Нурсултана Назарбаева"
+      },
+      "DME": {
+        "city": {
+          "name": "Москва"
+        },
+        "name": "Домодедово"
+      },
+      "TAS": {
+        "city": {
+          "name": "Ташкент"
+        },
+        "name": "Южный"
+      }
+    }
+  },
+  "bookings": [
+    {
+      "id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+      "provider_reference": "2BYJB6",
+      "flight_type": "OW",
+      "features": {
+        "refundable": {
+          "value": true
+        }
+      },
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2023-08-15T12:35:00+05:00",
+                "airport": "TAS",
+                "terminal": "2"
+              },
+              "dep": {
+                "at": "2023-08-15T12:00:00+06:00",
+                "airport": "ALA",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "airline": "KC",
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "pc": {
+                      "unit": "KG",
+                      "value": 23
+                    },
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": {
+                    "size": null,
+                    "unit": "KG",
+                    "value": 8
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "flight_number": "127",
+              "display_airline": "KC",
+              "booking_segment_idx": 0
+            }
+          ]
+        }
+      ],
+      "is_charter": false,
+      "fare_family": {
+        "choices": [
+          {
+            "id": 1,
+            "code": "REFUNDABLE",
+            "name": "Оптимальный",
+            "descriptions": [
+              {
+                "name": "Ручная кладь 2 сумка 8 кг ",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Багаж 2 чемодан 23 кг",
+                "type": "baggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Возврат со штрафом",
+                "type": "refund",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Обмен платный",
+                "type": "exchange",
+                "state": "CHARGABLE"
+              }
+            ]
+          }
+        ],
+        "current_id": 1
+      },
+      "tickets": [
+        {
+          "segments": [0],
+          "passenger_idx": 0,
+          "number": "251-9787242494"
+        }
+      ]
+    },
+    {
+      "id": "b2b8acb9-8fbd-4312-8590-43a67441ft99",
+      "provider_reference": "V4GDNG",
+      "flight_type": "OW",
+      "features": {
+        "refundable": {
+          "value": true
+        }
+      },
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2023-08-15T21:30:00+03:00",
+                "airport": "DME",
+                "terminal": null
+              },
+              "dep": {
+                "at": "2023-08-15T19:20:00+05:00",
+                "airport": "TAS",
+                "terminal": "2"
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "airline": "HY",
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "pc": {
+                      "unit": "KG",
+                      "value": 23
+                    },
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "flight_number": "601",
+              "display_airline": "HY",
+              "booking_segment_idx": 0
+            }
+          ]
+        }
+      ],
+      "is_charter": false,
+      "fare_family": {
+        "choices": [
+          {
+            "id": 1,
+            "code": "REFUNDABLE",
+            "name": "Оптимальный",
+            "segments": [0],
+            "descriptions": [
+              {
+                "name": "Ручная кладь 2 сумка 8 кг ",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Багаж 2 чемодан 23 кг",
+                "type": "baggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Возврат со штрафом",
+                "type": "refund",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Обмен платный",
+                "type": "exchange",
+                "state": "CHARGABLE"
+              }
+            ]
+          }
+        ],
+        "current_id": 1
+      },
+      "tickets": [
+        {
+          "segments": [0],
+          "passenger_idx": 0,
+          "number": "251-9787299999"
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "full_name": "TED LASSO",
+      "type": "ADT",
+      "dob": "1970-10-10",
+      "document": {
+        "number": "033608942"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 0
+        },
+        {
+          "booking_id": "b2b8acb9-8fbd-4312-8590-43a67441ft99",
+          "flights": [0],
+          "pax_idx": 0
+        }
+      ]
+    }
+  ],
+  "baggage": [],
+  "pricing": [
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "37910.00",
+      "currency": "KZT",
+      "passenger_idx": 0,
+      "product_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44"
+    },
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "75506.00",
+      "currency": "KZT",
+      "passenger_idx": 0,
+      "product_id": "b2b8acb9-8fbd-4312-8590-43a67441ft99"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "order-number": "Order number",
+  "this-is-not-a-boarding-pass": "This e-ticket is not a boarding pass.",
+  "general-info": {
+    "local-time": "Departure and arrival times are local",
+    "checkin": "Check-in at the airport closes one hour before departure",
+    "refund-exchange": "You can arrange a return and exchange by yourself in your personal account and on the website aviata.kz",
+    "support-schedule": "Customer support service is available 24/7, including holidays and weekends."
+  },
+  "pax-full-name": "Last name First name ",
+  "pax-type": "Type",
+  "pax-dob": "Date of birth",
+  "pax-document": "Document",
+  "pax-ADT": "Adult",
+  "pax-CHD": "Child",
+  "pax-INF": "Infant",
+  "pax-YTH": "Youth",
+  "inf-luggage-info": "Carry-on and luggage are not allowed for infants",
+  "fare-name": "Tariff",
+  "included": "Includes",
+  "chargeable": "For extra charge",
+  "terminal": "Terminal {{ terminal }}",
+  "flight-duration": "travel time",
+  "cabin-class": "class",
+  "e-ticket-number": "order number",
+  "flight": "flight",
+  "flight_charter": "charter flight",
+  "pnr": "booking number",
+  "segment-flight-index": "Flight {{ index }}",
+  "departure": "Departure",
+  "arrival": "Arrival",
+  "stop-in": "Stop in {{ city }}",
+  "connection-in": "Transfer to {{ city }}",
+  "connection-guaranteed-by-airline": "Transfer guaranteed by the airline",
+  "connection-self": "Independent transfer, do not forget about your luggage",
+  "pricing": {
+    "column": {
+      "ticket": "TICKET",
+      "product": "PRODUCT",
+      "price": "PRICE",
+      "count": "QUANTITY",
+      "amount": "SUM"
+    },
+    "total": "Total"
+  },
+  "legal": {
+    "aviata": "TOO «Aviata»",
+    "airline": "Airline {{ name }}",
+    "bin": "BIN {{ bin }}",
+    "account-number": "Delivery registration number",
+    "vat": "VAT: {{ document }}",
+    "aviata-vat-document": "series 60001 #0054521, the 1 of December 2014"
+  },
+  "ancillary-baggage": {
+    "heading": "EXTRA BAGGAGE",
+    "column": {
+      "pax": "Passanger",
+      "itinerary": "Route",
+      "hand-luggage": "Extra carry-on",
+      "baggage": "Extra luggage"
+    }
+  },
+  "duration": "{{ h }}h {{ m }}m",
+  "duration_hours": "{{ h }}h",
+  "duration_minutes": "{{ m }}m",
+  "economy-class": "Economy",
+  "business-class": "Business",
+  "refundable": "Refundable",
+  "baggage": "Luggage: {{ value }}",
+  "hand-luggage": "Carry-on",
+  "base-fare": "Base",
+  "no-vat": "Without VAT",
+  "with-vat": "with VAT",
+  "freedom": {
+    "cashback": {
+      "text": "Pay for purchases with a Freedom Bank card and get up to 30% cashback!* Open the card in a couple of minutes in the <0>Freedom SuperApp</0> application",
+      "annotation": "*Cashback is credited in Freedom investment currency. It can be used like regular money: pay, transfer and convert.",
+      "link": "https://special.aviata.kz/freedom-superapp?utm_source=mindbox&utm_medium=email&utm_campaign=freedom-superapp"
+    }
+  }
+}

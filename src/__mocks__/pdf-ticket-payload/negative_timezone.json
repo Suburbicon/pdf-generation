@@ -1,0 +1,313 @@
+{
+  "order": {
+    "number": "AVX69MSX"
+  },
+  "dict": {
+    "cities": {
+      "ATL": {
+        "name": "Атланта",
+        "country": {
+          "name": "Соединенные Штаты Америки"
+        }
+      },
+      "NYC": {
+        "name": "Нью-Йорк",
+        "country": {
+          "name": "Соединенные Штаты Америки"
+        }
+      },
+      "SHV": {
+        "name": "Шревепорт, Луизиана",
+        "country": {
+          "name": "Соединенные Штаты Америки"
+        }
+      }
+    },
+    "airlines": {
+      "DL": {
+        "name": "Delta Air Lines"
+      }
+    },
+    "airports": {
+      "ATL": {
+        "city": {
+          "name": "Атланта",
+          "country": {
+            "name": "Соединенные Штаты Америки"
+          }
+        },
+        "name": "Вест Б. Хартсфилд"
+      },
+      "LGA": {
+        "city": {
+          "name": "Нью-Йорк",
+          "country": {
+            "name": "Соединенные Штаты Америки"
+          }
+        },
+        "name": "Ла-Гардия"
+      },
+      "SHV": {
+        "city": {
+          "name": "Шревепорт, Луизиана",
+          "country": {
+            "name": "Соединенные Штаты Америки"
+          }
+        },
+        "name": "Риджионал"
+      }
+    }
+  },
+  "bookings": [
+    {
+      "id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+      "provider_reference": "SC4L3X",
+      "flight_type": "OW",
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2023-07-23T15:44:00-04:00",
+                "airport": "ATL",
+                "terminal": "S"
+              },
+              "dep": {
+                "at": "2023-07-23T12:50:00-05:00",
+                "airport": "SHV",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "stops": [],
+              "airline": "DL",
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "equipment": {
+                "code": "CR9",
+                "name": null
+              },
+              "connection": {
+                "duration": 2160,
+                "guarantor": "airline"
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "flight_number": "4993",
+              "display_airline": "DL",
+              "booking_segment_idx": 0
+            },
+            {
+              "arr": {
+                "at": "2023-07-23T18:49:00-04:00",
+                "airport": "LGA",
+                "terminal": "C"
+              },
+              "dep": {
+                "at": "2023-07-23T16:20:00-04:00",
+                "airport": "ATL",
+                "terminal": "S"
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "stops": [],
+              "airline": "DL",
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "unit": "PC",
+                    "value": 0
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "connection": null,
+              "hand_luggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "flight_number": "939",
+              "display_airline": "DL",
+              "booking_segment_idx": 1
+            }
+          ]
+        }
+      ],
+      "is_charter": false,
+      "features": {
+        "refundable": {
+          "level": "critical",
+          "value": false
+        }
+      },
+      "fare_family": {
+        "choices": [
+          {
+            "id": 1,
+            "name": "MAIN CABIN",
+            "descriptions": [
+              {
+                "name": "Ручная кладь 1 сумка",
+                "type": "hand_luggage",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Багаж за доплату",
+                "type": "baggage",
+                "state": "NOT OFFER"
+              },
+              {
+                "name": "Невозвратный",
+                "type": "refund",
+                "state": "NOT OFFER"
+              },
+              {
+                "name": "Обмен бесплатный",
+                "type": "exchange",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Обмену не подлежит",
+                "type": "exchange",
+                "state": "NOT OFFER"
+              },
+              {
+                "name": "Standard boarding",
+                "type": "default",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Standard seat",
+                "type": "seat",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Inflight ent",
+                "type": "entertainment",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Начисление миль",
+                "type": "miles",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Бронирование места",
+                "type": "seat",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Лёгкий перекус",
+                "type": "food",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Status accrual",
+                "type": "miles",
+                "state": "INCLUDE"
+              },
+              {
+                "name": "Повышение тарифа",
+                "type": "fare_upgrades",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Alcoholic drink",
+                "type": "food",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Доступ в интернет",
+                "type": "entertainment",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Приоритетная посадка",
+                "type": "vip_service",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Standby",
+                "type": "default",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Unaccompanied minor",
+                "type": "default",
+                "state": "CHARGABLE"
+              },
+              {
+                "name": "Приоритетная регистрация",
+                "type": "vip_service",
+                "state": "NOT OFFER"
+              }
+            ]
+          }
+        ],
+        "current_id": 1
+      },
+      "tickets": [
+        {
+          "number": "006-9778448727",
+          "segments": [0, 1],
+          "passenger_idx": 0
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "dob": "1983-11-15",
+      "type": "ADT",
+      "document": {
+        "number": "N15164841"
+      },
+      "full_name": "KOZHABEKOV YERKIN",
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 0
+        }
+      ]
+    }
+  ],
+  "baggage": [],
+  "pricing": [
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "15901.00",
+      "currency": "KZT",
+      "passenger_idx": 0,
+      "product_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44"
+    }
+  ]
+}

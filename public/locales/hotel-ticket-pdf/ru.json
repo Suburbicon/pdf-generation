@@ -1,0 +1,14 @@
+{
+  "booking-number": "Номер бронирования",
+  "order-number": "Номер заказа",
+  "country": "Страна пребывания",
+  "guest-amount": "Количество гостей",
+  "room-amount": "Количество комнат",
+  "arr": "Заезд",
+  "dep": "Выезд",
+  "guests": "Гости",
+  "hotel-conditions": "Условия в отеле",
+  "important-info": "Важная информация",
+  "cancel-conditions": "Условия отменя и изменения заказа",
+  "whatsapp": "Чат в WhatsApp"
+}

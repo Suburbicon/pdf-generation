@@ -1,0 +1,26 @@
+{
+  "hello": "Hello",
+  "successfull-book": "Your tickets have been successfully booked",
+  "order-number": "Order Number",
+  "amount-to-be-paid": "Amount to be Paid",
+  "pay-before": "Pay Before",
+  "avia-company-day-paid": "If the airline changes the payment deadline, we will notify you at the number",
+  "pay": "Pay",
+  "passengers": "Passengers",
+  "flight": "Flight",
+  "departure": "Departure",
+  "airport": "Airport",
+  "arrive": "Arrival",
+  "recomendation": {
+    "one": "We recommend arriving at the airport 2 hours before departure — check-in may take longer than usual",
+    "two": "It's cheaper to refund a ticket if you do it yourself",
+    "three": "Log in to your account, select the ticket, check the refund amount, and click 'Refund'"
+  },
+  "ticket-number": "Ticket Number",
+  "reservation": "Reservation",
+  "terminal": "Terminal",
+  "baggage": "Baggage",
+  "hand-luggage": "Hand Luggage",
+  "rate": "Fare",
+  "amount": "Total Amount"
+}

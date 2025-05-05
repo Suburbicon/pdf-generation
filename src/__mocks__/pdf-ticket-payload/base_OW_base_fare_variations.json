@@ -1,0 +1,229 @@
+{
+  "order": {
+    "number": "AV-190113-908013"
+  },
+  "dict": {
+    "cities": {
+      "ALA": {
+        "name": "Алматы"
+      },
+      "TSE": {
+        "name": "Астана"
+      }
+    },
+    "airlines": {
+      "KC-": {
+        "name": "FlyArystan"
+      },
+      "KC": {
+        "name": "Air Astana",
+        "bin": "010940000162",
+        "document_number": "серия 60001, #J0076632, 19 сентября 2012"
+      }
+    },
+    "airports": {
+      "ALA": {
+        "city": {
+          "name": "Алматы"
+        },
+        "name": "Международный аэропорт Алматы"
+      },
+      "TSE": {
+        "city": {
+          "name": "Астана"
+        },
+        "name": "Международный аэропорт Нурсултана Назарбаева"
+      },
+      "SVO": {
+        "city": {
+          "name": "Москва"
+        },
+        "name": "Международный аэропорт Шереметьево"
+      }
+    }
+  },
+  "bookings": [
+    {
+      "id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+      "provider_reference": "2BYJB6",
+      "flight_type": "OW",
+      "features": {
+        "refundable": {
+          "value": true
+        }
+      },
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2020-07-16T10:45:00+06:00",
+                "airport": "TSE",
+                "terminal": "T2"
+              },
+              "dep": {
+                "at": "2020-07-16T09:00:00+06:00",
+                "airport": "ALA",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy"
+              },
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "value": 10,
+                    "unit": "KG"
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "features": {
+                "refundable": {
+                  "value": true
+                }
+              },
+              "airline": "KC",
+              "display_airline": "KC",
+              "flight_number": "352",
+              "booking_segment_idx": 0
+            }
+          ]
+        }
+      ],
+      "is_charter": false,
+      "fare_family": null,
+      "tickets": [
+        {
+          "segments": [0, 1],
+          "passenger_idx": 0,
+          "number": "251-9787242494"
+        },
+        {
+          "segments": [0, 1],
+          "passenger_idx": 1,
+          "number": "251-9787242493"
+        }
+      ]
+    },
+    {
+      "id": "b2b8acb9-8fbd-4312-6530-43a67441ft99",
+      "provider_reference": "2BYJG7",
+      "flight_type": "OW",
+      "features": {
+        "refundable": {
+          "value": false
+        }
+      },
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2020-07-17T12:00:00+06:00",
+                "airport": "TSE",
+                "terminal": "T2"
+              },
+              "dep": {
+                "at": "2020-07-17T12:00:00+03:00",
+                "airport": "SVO",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy"
+              },
+              "baggage": {
+                "free": {
+                  "ADT": {
+                    "value": 2,
+                    "unit": "PC",
+                    "pc": {
+                      "value": 23,
+                      "unit": "KG"
+                    }
+                  },
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "airline": "KC",
+              "display_airline": "KC",
+              "flight_number": "352",
+              "booking_segment_idx": 0
+            }
+          ]
+        }
+      ],
+      "is_charter": false,
+      "fare_family": null,
+      "tickets": [
+        {
+          "segments": [0, 1],
+          "passenger_idx": 0,
+          "number": "251-9787242494"
+        },
+        {
+          "segments": [0, 1],
+          "passenger_idx": 1,
+          "number": "251-9787242493"
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "full_name": "TED LASSO",
+      "type": "ADT",
+      "dob": "1970-10-10",
+      "document": {
+        "number": "033608942"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 0
+        },
+        {
+          "booking_id": "b2b8acb9-8fbd-4312-6530-43a67441ft99",
+          "flights": [0],
+          "pax_idx": 0
+        }
+      ]
+    },
+    {
+      "full_name": "LASSO TED",
+      "type": "CHD",
+      "dob": "1960-10-10",
+      "document": {
+        "number": "033608943"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 1
+        },
+        {
+          "booking_id": "b2b8acb9-8fbd-4312-6530-43a67441ft99",
+          "flights": [0],
+          "pax_idx": 1
+        }
+      ]
+    }
+  ],
+  "baggage": [],
+  "pricing": [
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "15901.00",
+      "currency": "KZT",
+      "passenger_idx": 1,
+      "product_id": "b2b8acb9-8fbd-4312-6530-43a67441ft99"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# https://typescript-eslint.io/linting/troubleshooting/#fixing-the-error
+.eslintrc.cjs

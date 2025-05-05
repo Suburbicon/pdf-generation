@@ -1,0 +1,73 @@
+{
+  "order-number": "Тапсырыстың нөмірі",
+  "this-is-not-a-boarding-pass": "Бұл электрондық билет отырғызу талоны емес",
+  "general-info": {
+    "local-time": "Ұшатын және қонатын уақыт — жергілікті уақыт",
+    "checkin": "Әуежайдағы тіркеу ұшуға бір сағат қалғанда аяқталады",
+    "refund-exchange": "Билетті aviata.kz cайты мен жеке кабинетіңізге кіріп, өз бетіңізбен қайтаруға я ауыстыруға болады",
+    "support-schedule": "Қолдау қызметі тәулік бойы, мереке және демалыс күндері істейді."
+  },
+  "pax-full-name": "Аты-жөні",
+  "pax-type": "Тип",
+  "pax-dob": "Туған күні",
+  "pax-document": "Құжат",
+  "pax-ADT": "Ересек",
+  "pax-CHD": "Бала",
+  "pax-INF": "Сәби",
+  "pax-YTH": "Жастар",
+  "inf-luggage-info": "Сәбилер багаж бен қолжүк ала алмайды",
+  "fare-name": "Тариф",
+  "included": "Не кіреді",
+  "chargeable": "Қосымша ақыға",
+  "terminal": "{{ terminal }} терминалы",
+  "flight-duration": "жолға кететін уақыт",
+  "cabin-class": "класс",
+  "e-ticket-number": "билеттің нөмірі",
+  "flight": "рейс",
+  "flight_charter": "чартер рейс",
+  "pnr": "броньның нөмірі",
+  "segment-flight-index": "{{ index }} рейсі",
+  "departure": "Ұшу",
+  "arrival": "Қону",
+  "stop-in": "{{ city }} қ. аялдау",
+  "connection-in": "{{ city }} қ. ауысып отыру",
+  "connection-guaranteed-by-airline": "Ауысып отыратыныңызға әуе компаниясы кепіл",
+  "connection-self": "Өз бетіңізбен ауысып отырасыз, сондықтан багажыңызды алып, кері тапсыру керегін ұмытып кетпеңіз",
+  "pricing": {
+    "column": {
+      "ticket": "БИЛЕТ",
+      "product": "ӨНІМ",
+      "price": "БАҒА",
+      "count": "САНЫ",
+      "amount": "СОМА"
+    },
+    "total": "ЖАЛПЫ СОМА"
+  },
+  "legal": {
+    "aviata": "«Aviata» ЖШС",
+    "airline": "{{ name }} әуе компаниясы",
+    "bin": "БСН {{ bin }}",
+    "account-number": "Есепке тіркеу нөмірі",
+    "vat": "ҚҚС: {{ document }}",
+    "aviata-vat-document": "серия 60001 #0054521, 2014 жылғы 1 желтоқсан"
+  },
+  "ancillary-baggage": {
+    "heading": "ҚОСЫМША БАГАЖ",
+    "column": {
+      "pax": "Жолаушы",
+      "itinerary": "Бағыт",
+      "hand-luggage": "Қос. қолжүк",
+      "baggage": "Қос. багаж"
+    }
+  },
+  "duration": "{{ h }}сағ {{ m }}мин",
+  "duration_minutes": "{{ m }}мин",
+  "economy-class": "Эконом",
+  "business-class": "Бизнес",
+  "refundable": "Қайтарылады",
+  "baggage": "Багаж: {{ value }}",
+  "hand-luggage": "Қолжүк",
+  "base-fare": "Негізгі",
+  "no-vat": "ҚҚС-сыз",
+  "with-vat": "ҚҚС қосылған"
+}

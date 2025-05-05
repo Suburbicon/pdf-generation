@@ -1,0 +1,75 @@
+{
+  "order-number": "Номер заказа",
+  "this-is-not-a-boarding-pass": "Данный электронный билет не является посадочным талоном",
+  "general-info": {
+    "local-time": "Время вылета и прилета указано местное",
+    "checkin": "Регистрация в аэропорту завершается за час до вылета",
+    "refund-exchange": "Оформить возврат и обмен можно самостоятельно в личном кабинете и на сайте aviata.business",
+    "support-schedule": "Служба поддержки клиентов работает круглосуточно, без праздников и выходных."
+  },
+  "pax-full-name": "Фамилия Имя",
+  "pax-type": "Тип",
+  "pax-dob": "Дата рождения",
+  "pax-document": "Документ",
+  "pax-ADT": "Взрослый",
+  "pax-CHD": "Ребенок",
+  "pax-INF": "Младенец",
+  "pax-YTH": "Молодежный",
+  "inf-luggage-info": "Младенцам багаж и ручная кладь не предоставляются",
+  "fare-name": "Тариф",
+  "included": "Включено",
+  "chargeable": "За доплату",
+  "terminal": "Терминал {{ terminal }}",
+  "flight-duration": "время в пути",
+  "cabin-class": "класс",
+  "e-ticket-number": "номер билета",
+  "flight": "рейс",
+  "flight_charter": "чартерный рейс",
+  "pnr": "номер брони",
+  "segment-flight-index": "Рейс {{ index }}",
+  "departure": "Вылет",
+  "arrival": "Прилет",
+  "stop-in": "Остановка в г. {{ city }}",
+  "connection-in": "Пересадка в г. {{ city }}",
+  "connection-guaranteed-by-airline": "Пересадка гарантирована авиакомпанией",
+  "connection-self": "Самостоятельная пересадка, не забудьте про багаж",
+  "pricing": {
+    "column": {
+      "ticket": "БИЛЕТ",
+      "product": "ПРОДУКТ",
+      "price": "ЦЕНА",
+      "count": "КОЛ-ВО",
+      "amount": "СУММА"
+    },
+    "total": "Итого"
+  },
+  "legal": {
+    "aviata": "TOO «Aviata»",
+    "airline": "Авиакомпания {{ name }}",
+    "bin": "БИН {{ bin }}",
+    "account-number": "Номер поставки на учет",
+    "vat": "НДС: {{ document }}",
+    "aviata-vat-document": "серия 60001 #0054521, 1 декабря 2014"
+  },
+  "ancillary-baggage": {
+    "heading": "ДОПОЛНИТЕЛЬНЫЙ БАГАЖ",
+    "column": {
+      "pax": "Пассажир",
+      "itinerary": "Маршрут",
+      "hand-luggage": "Доп. ручная кладь",
+      "baggage": "Доп. багаж"
+    }
+  },
+  "duration": "{{ h }}ч {{ m }}мин",
+  "duration_days": "{{ d }}д",
+  "duration_hours": "{{ h }}ч",
+  "duration_minutes": "{{ m }}мин",
+  "economy-class": "Эконом",
+  "business-class": "Бизнес",
+  "refundable": "Возвратный",
+  "baggage": "Багаж: {{ value }}",
+  "hand-luggage": "Ручная кладь",
+  "base-fare": "Базовый",
+  "no-vat": "Без НДС",
+  "with-vat": "в т.ч. НДС"
+}

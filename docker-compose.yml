@@ -1,0 +1,9 @@
+services:
+  yeanot:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.dev
+      args:
+        NPM_TOKEN: ${NPM_TOKEN}
+    ports:
+      - 8000:8000

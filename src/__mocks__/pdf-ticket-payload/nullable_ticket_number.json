@@ -1,0 +1,198 @@
+{
+  "order": {
+    "number": "ARGL88DT"
+  },
+  "dict": {
+    "cities": {
+      "AYT": {
+        "name": "Анталья"
+      },
+      "CAI": {
+        "name": "Каир"
+      }
+    },
+    "airlines": {
+      "XQ": {
+        "name": "Sun Express",
+        "bin": null,
+        "document_number": null
+      }
+    },
+    "airports": {
+      "AYT": {
+        "city": {
+          "name": "Анталья"
+        },
+        "name": "Анталья"
+      },
+      "CAI": {
+        "city": {
+          "name": "Каир"
+        },
+        "name": "Каир"
+      }
+    }
+  },
+  "bookings": [
+    {
+      "id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+      "provider_reference": "517206855",
+      "flight_type": "RT",
+      "flights": [
+        {
+          "segments": [
+            {
+              "arr": {
+                "at": "2024-08-08T17:00:00+03:00",
+                "airport": "AYT",
+                "terminal": null
+              },
+              "dep": {
+                "at": "2024-08-08T15:25:00+03:00",
+                "airport": "CAI",
+                "terminal": null
+              },
+              "cabin": {
+                "class": "Economy",
+                "details": null
+              },
+              "stops": [],
+              "connection": {
+                "guarantor": "airline"
+              },
+              "baggage": {
+                "free": {
+                  "ADT": null,
+                  "CHD": null,
+                  "INF": null,
+                  "YTH": null
+                },
+                "recheck_required": false
+              },
+              "hand_luggage": {
+                "free": {
+                  "ADT": {
+                    "size": [30, 15, 40],
+                    "unit": "KG",
+                    "value": 3
+                  },
+                  "CHD": {
+                    "size": [30, 15, 40],
+                    "unit": "KG",
+                    "value": 3
+                  },
+                  "INF": null,
+                  "YTH": null
+                }
+              },
+              "airline": "XQ",
+              "display_airline": "XQ",
+              "flight_number": "225",
+              "booking_segment_idx": 0
+            }
+          ]
+        }
+      ],
+      "fare_family": null,
+      "is_charter": false,
+      "features": {
+        "refundable": {
+          "value": false,
+          "level": "critical"
+        }
+      },
+      "validating_airlines": ["XQ"],
+      "tickets": [
+        {
+          "segments": [0],
+          "passenger_idx": 0,
+          "number": null,
+          "airline_reference": "6MVLFWG"
+        },
+        {
+          "segments": [0],
+          "passenger_idx": 1,
+          "number": null,
+          "airline_reference": "TX5G9Z6"
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "full_name": "ALEKSANDR NIKOLAEV",
+      "type": "ADT",
+      "dob": "1996-03-13",
+      "document": {
+        "type": "P",
+        "number": "N6842937"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 0
+        }
+      ]
+    },
+    {
+      "full_name": "CORRO AGUISTIN",
+      "type": "ADT",
+      "dob": "1982-08-21",
+      "document": {
+        "type": "P",
+        "number": "N5672349"
+      },
+      "collected_flights": [
+        {
+          "booking_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44",
+          "flights": [0],
+          "pax_idx": 1
+        }
+      ]
+    }
+  ],
+  "baggage": [],
+  "pricing": [
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "236336.00",
+      "currency": "KZT",
+      "cost": "236336.00",
+      "vat": null,
+      "passenger_idx": 0,
+      "product_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44"
+    },
+    {
+      "title": "Билеты",
+      "product_type": "airflow.booking",
+      "amount": "236336.00",
+      "currency": "KZT",
+      "cost": "236336.00",
+      "vat": null,
+      "passenger_idx": 1,
+      "product_id": "a1b8acb9-8fbd-4312-8590-43a67441ed44"
+    },
+    {
+      "title": "SMS: Важная информация о билете",
+      "product_type": "products.sms-ticket",
+      "amount": "589.00",
+      "currency": "KZT",
+      "cost": "589.00",
+      "vat": null,
+      "passenger_idx": null,
+      "product_id": "494e42e3-d59c-4ef3-8d43-88bd54b12235"
+    },
+    {
+      "title": "SMS: Вся информация о вашем путешествии",
+      "product_type": "products.sms-info",
+      "amount": "900.00",
+      "currency": "KZT",
+      "cost": "900.00",
+      "vat": null,
+      "passenger_idx": null,
+      "product_id": "c6045e10-acf8-4c58-a546-265d24e0ab8b"
+    }
+  ]
+}
